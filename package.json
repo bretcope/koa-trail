@@ -1,0 +1,31 @@
+{
+  "name": "koa-trail",
+  "version": "0.0.1",
+  "description": "A koa router which supports chained route matching.",
+  "author": "Bret Copeland <bret@atlantisflight.org>",
+  "main": "./lib/trail-router.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bretcope/koa-trail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bretcope/koa-trail/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bretcope/koa-trail/raw/master/LICENSE.MIT"
+    }
+  ],
+  "keywords": [
+    "koa",
+    "router",
+    "middleware"
+  ],
+  "dependencies": {
+    "methods": "~0.1.0"
+  },
+  "devDependencies": {
+    "koa": "~0.4.0"
+  }
+}
