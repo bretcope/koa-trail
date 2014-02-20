@@ -1,21 +1,5 @@
 # koa-trail
 
-* [Usage](#usage)
-    * [Installation](#installation)
-    * [Setup](#setup)
-    * [Setup](#setup)
-    * [Route Chaining](#route-chaining)
-    * [Named Routes](#named-routes)
-    * [Route Parameters](#route-parameters)
-    * [Wildcard Routes](#wildcard-routes)
-    * [Router Methods](#router-methods)
-        * [register](#router-register)
-        * [VERB](#router-verb)
-        * [all](#router-all)
-        * [url](#router-url)
-        * [finally](#router-finally)
-* [License](#license)
-
 Trail is a router for [koa](https://github.com/koajs/koa) with the option to explicitly execute multiple routes on a single request (similar to express routing).
 
 For example, assume we have an authenticate middleware function which should run on every `/api/*` route. Instead of:
@@ -45,6 +29,24 @@ app.put('/api/:contentId/like', apiController.likeContent);
 This reduces chaining on individual routes, and may improve security since there is less likelihood of a developer forgetting to add important security middleware on certain routes.
 
 This middleware is largely inspired by [koa-router](https://github.com/alexmingoia/koa-router). The reason for building a new router is that they [explicitly decided](https://github.com/alexmingoia/koa-router/pull/41) not to allow the route chaining behavior outlined above.
+
+---
+
+* [Usage](#usage)
+    * [Installation](#installation)
+    * [Setup](#setup)
+    * [Setup](#setup)
+    * [Route Chaining](#route-chaining)
+    * [Named Routes](#named-routes)
+    * [Route Parameters](#route-parameters)
+    * [Wildcard Routes](#wildcard-routes)
+    * [Router Methods](#router-methods)
+        * [register](#router-register)
+        * [VERB](#router-verb)
+        * [all](#router-all)
+        * [url](#router-url)
+        * [finally](#router-finally)
+* [License](#license)
 
 <a name="usage"></a>
 ## Usage
