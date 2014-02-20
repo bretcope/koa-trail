@@ -54,7 +54,7 @@ This middleware is largely inspired by [koa-router](https://github.com/alexmingo
 <a name="installation"></a>
 ### Installation
 
-   npm install koa-trail
+    npm install koa-trail
 
 <a name="setup"></a>
 ### Setup
