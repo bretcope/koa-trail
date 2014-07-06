@@ -1,6 +1,6 @@
 {
   "name": "koa-trail",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A koa router which supports chained route matching.",
   "author": "Bret Copeland <bret@atlantisflight.org>",
   "main": "./lib/trail-router.js",
